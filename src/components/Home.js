@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Picker from './Picker'
 
 export default class Home extends Component {
   static displayName = Home.name;
@@ -6,7 +7,7 @@ export default class Home extends Component {
   render(){
     return(
       <div>
-        <h1>Hello</h1>
+        <Picker />
       </div>
     );
   }
