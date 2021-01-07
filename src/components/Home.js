@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Picker from './Picker'
+import Topbar from './Topbar'
 
 export default class Home extends Component {
   static displayName = Home.name;
@@ -6,7 +8,8 @@ export default class Home extends Component {
   render(){
     return(
       <div>
-        <h1>Hello</h1>
+      <Topbar />
+      <Picker />
       </div>
     );
   }
