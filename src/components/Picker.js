@@ -11,11 +11,14 @@ export default class Picker extends Component {
       <div>
         <Container>
           <Row>
-            <Col id="left">1 of 2</Col>
+            <Col onClick = {() => {this.alertTest()}} id="left">1 of 2</Col>
             <Col id="right">2 of 2</Col>
           </Row>
         </Container>
       </div>
     );
   }
+  alertTest() {
+  alert("I am an alert box!");
+}
 }
