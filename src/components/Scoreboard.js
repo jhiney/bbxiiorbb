@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button'
+import './componentStyle/Scoreboard.css'
 
 
 export default class Scoreboard extends Component {
