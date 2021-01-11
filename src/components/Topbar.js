@@ -3,6 +3,7 @@ import {Navbar, Nav, Form, FormControl} from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
 
 
+//TODO:  is using the default NavBar from React-bootstrap. Need to update to be more personal.
 export default class Topbar extends Component {
   static displayName = Topbar.name;
 
