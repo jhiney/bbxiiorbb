@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import {Container, Row, Col} from 'react-bootstrap'
 import './componentStyle/picker.css'
 
-const leftID = "left";
-const rightID = "right";
+const leftID = "Left";
+const rightID = "Right";
+
 export default class Picker extends Component {
 
 static displayName = Picker.name;
