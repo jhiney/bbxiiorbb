@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import {Navbar, Nav, Form, FormControl} from 'react-bootstrap'
-import Button from 'react-bootstrap/Button'
+import {Navbar, Nav} from 'react-bootstrap';
 
 
 //TODO:  is using the default NavBar from React-bootstrap. Need to update to be more personal.
