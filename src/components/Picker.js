@@ -8,10 +8,7 @@ const leftID = "Left";
 const rightID = "Right";
 
 export default class Picker extends Component {
-
 static displayName = Picker.name;
-
-
 
   render(){
     return(
