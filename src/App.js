@@ -4,7 +4,7 @@ import Home from './components/Home'
 
 export default class App extends Component {
   static displayName = App.name;
-//I like comments
+//I am testing out Git Kraken
   render(){
     return(
       <div>
