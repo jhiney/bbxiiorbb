@@ -1,8 +1,9 @@
 //This will be the settings modal where you can switch conferences or sports
-import React, { Component } from 'react';
+import React, {  useState } from 'react';
+import {Button, Modal} from 'react-bootstrap'
 
 //TODO:  is using the default NavBar from React-bootstrap. Need to update to be more personal.
-function Example() {
+export default function Example() {
     const [show, setShow] = useState(false);
   
     const handleClose = () => setShow(false);
@@ -11,7 +12,7 @@ function Example() {
     return (
       <>
         <Button variant="primary" onClick={handleShow}>
-          Launch demo modal
+          Settings Modal
         </Button>
   
         <Modal show={show} onHide={handleClose}>
@@ -32,4 +33,3 @@ function Example() {
     );
   }
   
-  render(<Example />);

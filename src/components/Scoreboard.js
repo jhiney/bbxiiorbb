@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Button from 'react-bootstrap/Button'
 import './componentStyle/Scoreboard.css'
+import Example from './SettingsModal';
 
 // TODO: Visualize scoreboard. Will need a background of some kind and a way to display scores.
 export default class Scoreboard extends Component {
@@ -8,9 +8,7 @@ export default class Scoreboard extends Component {
 
   render(){
     return(
-      <div>
-        <Button variant="outline-primary">Primary</Button>{' '}
-      </div>
+      <Example />
     );
   }
 }
