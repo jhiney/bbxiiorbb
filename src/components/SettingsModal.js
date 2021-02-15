@@ -1,8 +1,6 @@
-//This will be the settings modal where you can switch conferences or sports
 import React, {  useState } from 'react';
 import {Button, Modal} from 'react-bootstrap'
 
-//TODO:  is using the default NavBar from React-bootstrap. Need to update to be more personal.
 export default function Example() {
     const [show, setShow] = useState(false);
   
