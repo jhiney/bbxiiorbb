@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
 
-//TODO:  is using the default NavBar from React-bootstrap. Need to update to be more personal.
 export default class Topbar extends Component {
   static displayName = Topbar.name;
 
