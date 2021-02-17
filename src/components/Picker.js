@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Container, Row, Col} from 'react-bootstrap'
 import './componentStyle/picker.css'
 
-//These are just for testing
 //TODO: Read in data from a json or mongoDB and randomly assign it a side
 const leftID = "Left";
 const rightID = "Right";
