@@ -12,7 +12,6 @@ export default function Example() {
         <Button variant="primary" onClick={handleShow}>
           Settings Modal
         </Button>
-  
         <Modal show={show} onHide={handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Modal heading</Modal.Title>
@@ -20,10 +19,10 @@ export default function Example() {
           <Modal.Body>Modal Body</Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
-              Close
+              Secondary
             </Button>
             <Button variant="primary" onClick={handleClose}>
-              Save Changes
+              Primary
             </Button>
           </Modal.Footer>
         </Modal>
