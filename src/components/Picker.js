@@ -21,7 +21,5 @@ static displayName = Picker.name;
       </div>
     );
   }
-  
   alertTest = e => alert(e);
-
 }
